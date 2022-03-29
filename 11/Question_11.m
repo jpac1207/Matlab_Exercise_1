@@ -1,0 +1,1 @@
+isPrime(67) % test
