@@ -12,7 +12,7 @@ p = linspace(-70, 70, 100);
 v = polyval(c, p);
 
 % d) Plot
-chart = plot(x, y, ':',  v, p, '--');
+chart = plot(x, y, ':',  p, v, '--');
 title('Experimentais e Fitados');
 xlabel('x');
 ylabel('y');
